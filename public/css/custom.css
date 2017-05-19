@@ -1,13 +1,15 @@
-
-
-/*googlebook*/
-
-body {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/bg-sky.png);
-  background-repeat: repeat;
-
+.myName {
+  color:#558B2F;
+  font-size:45px;
+  font-family: 'Baloo', cursive;
 }
 
+/*googlebook*/
+body {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/bg-sky.png);
+  background-repeat: repeat !important;
+  background-attachment: fixed;
+}
 
 ul.rel-results {
   list-style-type: circle;
@@ -25,7 +27,7 @@ ul.rel-results {
 }
 
 .outerdiv {
-  margin-top: 60px;
+  /*margin-top:40px;*/
 }
 
 .span-style {
@@ -84,7 +86,7 @@ ul.rel-results {
   content: "|";
 }
 
-@media (max-width: 300px) {
+@media (max-width: 850px) {
   .related-results {
     display: none;
   }
@@ -95,41 +97,84 @@ ul.rel-results {
   margin: 0 88px 0 88px;
 }
 
+/* for filter */
+.selectdemoBasicUsage md-input-container {
+  margin-right: 10px; }
 
 
-/* css for AppCtrl*/
-.dialogdemoBasicUsage {
-  margin: 10px;
+/* css for module2  */
+
+/*.nav{
+    height: 40px;
+    background-color: black;
+    word-spacing: 10px;
+ }
+
+.menu {
+    font-size: 14pt;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+li a:link {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.dp{
-    height: 200px;
-    width: 200px;
-    float: left;
-    border-radius: 3pt;
-
-}
-.top{
-    float: left;
-    width: 100%;
-    color: black;
-    margin-left: 10px;
-    font-size: 13pt;
-}
-.top p, h2 {
-    margin-left: 250px;
+li a:visited {
+    color: white;
+    text-decoration: none;
 }
 
-.modal-body{
-    width: 32%;
-    float: left;
+li a:hover:not(.active) {
+     background-color: #4160b5;
+     color: white;
+     text-decoration: none;
 }
 
-#modalBody p{
-  font-size: 11pt;
-  color: black;
+li a:hover:not(.active) {
+     background-color: #4160b5;
+     color: white;
+     text-decoration: none;
 }
 
-#modalBody {
-  color: #0066CC;
+.menu > li:nth-child(1):before {
+      content: "";
+      padding: 0;
 }
+
+li a:active {
+     background-color: #4160b5;
+     color: white;
+     text-decoration: none;
+ }
+
+ .content {
+   margin-top: 50px;
+ }
+
+ .content h1{
+   color: #4160b5;
+   font-family: Helvetica;
+   font-weight: bold;
+ }
+
+ .content p{
+   font-family: Helvetica;
+ }
+
+ .content img{
+   margin-top: 5px;
+   width: 300px;
+  }
+
+  ul.rel-results {
+    list-style-type: circle;
+  }*/
