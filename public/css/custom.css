@@ -1,8 +1,4 @@
-.myName {
-  color:#558B2F;
-  font-size:45px;
-  font-family: 'Baloo', cursive;
-}
+
 
 /*googlebook*/
 
@@ -11,6 +7,7 @@ body {
   background-repeat: repeat;
 
 }
+
 
 ul.rel-results {
   list-style-type: circle;
