@@ -1,13 +1,15 @@
-
-
-/*googlebook*/
-
-body {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/bg-sky.png);
-  background-repeat: repeat;
-
+.myName {
+  color:#558B2F;
+  font-size:45px;
+  font-family: 'Baloo', cursive;
 }
 
+/*googlebook*/
+body {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/bg-sky.png);
+  background-repeat: repeat !important;
+  background-attachment: fixed;
+}
 
 ul.rel-results {
   list-style-type: circle;
@@ -84,7 +86,7 @@ ul.rel-results {
   content: "|";
 }
 
-@media (max-width: 300px) {
+@media (max-width: 850px) {
   .related-results {
     display: none;
   }
@@ -95,41 +97,9 @@ ul.rel-results {
   margin: 0 88px 0 88px;
 }
 
+/* for filter */
+.selectdemoBasicUsage md-input-container {
+  margin-right: 10px; }
 
 
-/* css for AppCtrl*/
-.dialogdemoBasicUsage {
-  margin: 10px;
-}
-
-.dp{
-    height: 200px;
-    width: 200px;
-    float: left;
-    border-radius: 3pt;
-
-}
-.top{
-    float: left;
-    width: 100%;
-    color: black;
-    margin-left: 10px;
-    font-size: 13pt;
-}
-.top p, h2 {
-    margin-left: 250px;
-}
-
-.modal-body{
-    width: 32%;
-    float: left;
-}
-
-#modalBody p{
-  font-size: 11pt;
-  color: black;
-}
-
-#modalBody {
-  color: #0066CC;
-}
+/* css for module2  */
