@@ -2,15 +2,14 @@ extends layout
 
 block body
   div(ng-controller='AppCtrl')
-    center
-      div.nav
-        ul.menu
-          li
-            a(href='view1') Welcome
-          li
-            a(href='view2') Books
-          li 
-            a(href='view3') Developers
+    h2 Hello {{name}}
+    ul.menu
+      li
+        a(href='view1') view1
+      li
+        a(href='view2') view2
+      li
+        a(href='view3') view3
 
     div(ng-view)
 
@@ -18,25 +17,21 @@ block body
 
   script(src='js/lib/angular/angular.js')
   script(src='js/app.js')
+  script(src='js/myCtrl1.js')
+  script(src='js/myCtrl2.js')
+  script(src='js/myCtrl3.js')
   script(src='js/services.js')
-    
-  script(src='js/controllers/module.js')    
+
   script(src='js/controllers/controllers.js')
-  script(src='js/controllers/myCtrl1.js')
   script(src='js/controllers/myCtrl2.js')
   script(src='js/controllers/myCtrl3.js')
 
   script(src='js/filters.js')
+  script(src='js/myCtrl1.js')
   script(src='js/directives.js')
-    
+
   //app
-  script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js')
-  script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js')
-  script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js')
-  script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js')
-  script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js')
-  script(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js')
-  script(src='https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.4/angular-material.js')
-  script(src='https://code.jquery.com/jquery-3.2.1.min.js')
-  script(src='http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js')
-    // Your application bootstrap
+  script(src='/node_modules/angular/angular.js')
+  script(src='/node_modules/angular-aria/angular-aria.js')
+  script(src='/node_modules/angular-animate/angular-animate.js')
+  script(src='/node_modules/angular-material/angular-material.js')
